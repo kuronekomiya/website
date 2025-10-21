@@ -1,7 +1,7 @@
 
 body {
   background-color: gray;
-  background-image: url(file:///Users/miaperez/Desktop/Nekomiya.web/img/stars.gif);
+  background-image: url(file:img/stars.gif);
   background-position: center;
   min-height: 100vh;
   color: white;
@@ -21,6 +21,12 @@ p{
 footer{
     font: 15px arial, sans-serif;
     padding: 20px;
+}
+
+img {
+  width: 580px;
+  height: 580px;
+  object-fit: cover;
 }
 
 /* LOGO */

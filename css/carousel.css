@@ -50,20 +50,20 @@
 }
 /* ADDING IMAGES TO CUBE */
 .c-front {
-  background-image: url('img/Borzoi_16.png');
+  background-image: url('../img/Borzoi_16.png');
   transform: translateZ(150px);
 }
 .c-right {
-  background-image: url('img/Borzoi_9.png');
+  background-image: url('../img/Borzoi_9.png');
   transform: rotateY(-270deg) translateX(150px);
   transform-origin: 100% 0;
 }
 .c-back {
-  background-image: url('img/Borzoi_12.png');
+  background-image: url('../img/Borzoi_12.png');
   transform: translateZ(-150px) rotateY(180deg);
 }
 .c-left {
-  background-image: url('img/Borzoi_17.png');
+  background-image: url('../img/Borzoi_17.png');
   transform: rotateY(270deg) translateX(-150px);
   transform-origin: 0 50%;
 }

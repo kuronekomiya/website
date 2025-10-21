@@ -23,7 +23,7 @@ footer{
     padding: 20px;
 }
 
-img {
+.borzoi-img {
   width: 580px;
   height: 580px;
   object-fit: cover;

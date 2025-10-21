@@ -1,7 +1,7 @@
 
 body {
   background-color: gray;
-  background-image: url(file:img/stars.gif);
+  background-image: url('img/stars.gif');
   background-position: center;
   min-height: 100vh;
   color: white;

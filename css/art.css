@@ -6,19 +6,9 @@ body {
   background: #fff;
 }
 
-/*link styling*/
-a:link {
-  text-decoration: underline;
+a {
+  text-decoration: none;
   color: inherit;
-}
-
-a:hover {
-  color: hotpink;
-  hover: pointer;
-}
-
-a:visited {
-  color: hotpink;
 }
 
 body .source-serif-4-<uniquifier> {
@@ -28,21 +18,11 @@ body .source-serif-4-<uniquifier> {
   font-style: normal;
 }
 
-/* Header and footer container injected by JS */
+/* Header container injected by JS */
 header {
   width: 100%;
   border-bottom: 1px solid black;
   padding: 20px 0;
-}
-
-footer {
-  width: 100%;
-  color: #777;
-  font-size: 18px;
-  padding: 20px 0;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 nav {
@@ -85,22 +65,6 @@ nav ul li:hover {
   border: 1px solid #ddd;
 }
 
-.small-image {
-  width: 400px;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.large-image {
-  width: 700px;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .title-block {
   flex: 1;
 }
@@ -121,29 +85,9 @@ nav ul li:hover {
 .content {
   max-width: 900px;
   margin: 40px auto;
-  padding: 0 20px;
   font-size: 20px;
   line-height: 1.6;
   text-align:left;
-}
-
-.note {
-  max-width: 900px;
-  margin: 40px auto;
-  padding: 0 20px;
-  font-size: 16px;
-  line-height: 1.6;
-  text-align:left;
-  font-style: italic;
-}
-
-.quote{
-  max-width: 600px;
-  margin: 30px auto;
-  padding: 0 20px;
-  font-size: 16px;
-  text-align: center;
-  font-style: italic;
 }
 
 .center {
@@ -160,13 +104,4 @@ nav ul li:hover {
   text-align: center;
   color: #777;
   font-size: 18px;
-}
-
-::selection {
-  background: hotpink;
-}
-
-em {
-  font-style: italic;
-  font-weight: bold;
 }

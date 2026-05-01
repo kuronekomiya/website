@@ -1,0 +1,155 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	background-color: black;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+#wrapper{
+	margin: 0 auto;
+	width: 922px;
+}
+
+#header{
+	background-image: url("../img/concert.webp");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 72vh;
+	margin: 50px 0px 0px 0px;
+
+	/*Flexbox*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.top-text{
+	font-size: xxx-large;
+	text-transform: uppercase;
+	margin: 20px 0px 0px 20px;
+	text-align: left;
+	align-self: flex-start;
+}
+
+.bottom-text{
+	font-size: xxx-large;
+	text-transform: uppercase;
+	text-align: right;
+	align-self: flex-end;
+	margin: 5px 20px 70px 0px;
+}
+
+.content{
+	font-size: x-large;
+	text-align: justify;
+	letter-spacing: 10%;
+	word-spacing: 50%;
+}
+
+.box{
+	background-color: whitesmoke;
+	color: black;
+	margin: 50px 120px 50px 120px;
+	padding: 5px;
+	text-align: center;
+	display: flex;
+	border-style: solid;
+	border-color: black;
+	border: 5px;
+	max-width: 60%;
+}
+
+.box-left{
+	font-size: large;
+	align-items: center;
+	text-align: left;
+	margin: 20px 20px 20px 10px;
+	padding: 0px 0px 0px 0px;
+}
+
+.box-right {
+  border: 5px solid black;
+  overflow: hidden;
+  overflow-y: scroll;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 60%;
+  padding: 0px 20px 0px 0px;
+  text-align: center;
+
+}
+
+li {
+	list-style-type: none;
+	margin: 80px 0px 30px 0px;
+	padding: 10px;
+	font-size: 30px;
+}
+
+
+/* SCRAPPED CARROUSEL
+.boxcontent{
+	overflow: hidden;
+	font-size: 25px;
+}
+
+.content__container {
+  overflow: hidden;
+  height: 140px;
+}
+
+.content__container__list {
+  padding-left: 0;
+  text-align: center;
+  align-items: center;
+  list-style: none;
+  animation: carousel 15s steps(12) infinite;
+}
+
+.item {
+  height: 140px;
+  padding: 20px 0;
+  box-sizing: border-box;
+  margin: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+}
+
+@keyframes carousel {
+  from { transform: translateY(0); }
+  to   { transform: translateY(-100%); }
+}
+
+/*Links*/
+a:link{
+	color: black;
+}
+
+a:visited{
+	color: hotpink;
+}
+
+a:hover{
+	color: limegreen;
+
+}
+
+a:active{
+
+}
